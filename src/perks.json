@@ -1,0 +1,94 @@
+{
+    "passive": [
+        {
+            "name": "Deep Pockets",
+            "slug": "deeppockets"
+        },
+        {
+            "name": "Veteran Depositor",
+            "slug": "veterandepositor"
+        },
+        {
+            "name": "Sweet Tooth",
+            "slug": "sweettooth"
+        },
+        {
+            "name": "Resupplier",
+            "slug": "resupplier"
+        },
+        {
+            "name": "Unstoppable",
+            "slug": "unstoppable"
+        },
+        {
+            "name": "Vampire",
+            "slug": "vampire"
+        },
+        {
+            "name": "Strong Arm",
+            "slug": "strongarm"
+        },
+        {
+            "name": "Friendly",
+            "slug": "friendly"
+        },
+        {
+            "name": "Elemental Insulation",
+            "slug": "elementalinsulation"
+        },
+        {
+            "name": "Second Wind",
+            "slug": "secondwind"
+        },
+        {
+            "name": "Born Ready",
+            "slug": "bornready"
+        },
+        {
+            "name": "It's a Bug Thing",
+            "slug": "bugthing"
+        },
+        {
+            "name": "Thorns",
+            "slug": "thorns"
+        }
+    ],
+    "active": [
+        {
+            "name": "Berzerker",
+            "slug": "berzerker"
+        },
+        {
+            "name": "Field Medic",
+            "slug": "fieldmedic"
+        },
+        {
+            "name": "Iron Will",
+            "slug": "ironwill"
+        },
+        {
+            "name": "Heightened Senses",
+            "slug": "heightenedsenses"
+        },
+        {
+            "name": "Shield Link",
+            "slug": "shieldlink"
+        },
+        {
+            "name": "Dash",
+            "slug": "dash"
+        },
+        {
+            "name": "Beast Master",
+            "slug": "beastmaster"
+        },
+        {
+            "name": "See You In Hell",
+            "slug": "syih"
+        },
+        {
+            "name": "Hover Boots",
+            "slug": "hoverboots"
+        }
+    ]
+}

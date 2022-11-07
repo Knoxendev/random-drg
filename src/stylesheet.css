@@ -1,0 +1,198 @@
+:root {
+    --background-color: #1e272e;
+    --slot-color: #2f3640;
+    --color-text: white;
+    --color-accent: #ef9710;
+    --color-accent-hover: #FFD100;
+    --color-accent-click: #ef7110;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: var(--background-color);
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 1rem;
+    gap: 1rem;
+}
+.grid-item {
+    height: 450px;
+    
+}
+.slot {
+    background-color: var(--slot-color);
+    color: var(--color-text);
+    border-top: 3px solid var(--color-accent);
+    border-bottom: 3px solid var(--color-accent);
+    height: 100%;
+}
+.slot.small {
+    height: 200px;
+}
+.slot.small:nth-child(2) {
+    margin-top: 3rem;
+}
+.slotInfo {
+    padding: 1rem;
+    height: 90%;
+}
+.slotButton {
+    height: 10%;
+}
+.slotImage {
+    height: 5rem;
+}
+h1, h3 {
+    margin: 0;
+}
+.title {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+.subtitle {
+    text-transform: capitalize;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex.center {
+    height: 300px;
+}
+.dwarfImage {
+    height: 10rem;
+}
+.modList {
+    list-style: none;
+}
+.modList svg {
+    height: 1rem;
+}
+.modList p {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.mods {
+    stroke: #FC9E00;
+    stroke-width: 3;
+    fill-opacity: 0;
+}
+.mods.sel {
+    stroke: #ffffff;
+    fill-opacity: 1;
+    fill: #FFD100;
+}
+.overclockSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.overclockName {
+    text-align: center;
+    width: 100%;
+}
+.overclock {
+    height: 128px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 128px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overclock img {
+    height: 50%;
+}
+.overclock.clean {
+    background-image: url("/images/overclock/clean.png");
+}
+.overclock.balanced {
+    background-image: url("/images/overclock/balanced.png");
+}
+.overclock.unstable {
+    background-image: url("/images/overclock/unstable.png");
+}
+
+.randomizeButton {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    background-color: var(--color-accent);
+    font-size: 1.7rem;
+    font-family: "Bebas Neue", sans-serif;
+}
+.randomizeButton:hover {
+    background-color: var(--color-accent-hover);
+}
+.randomizeButton:active {
+    background-color: var(--color-accent-click);
+}
+.perkSection {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.perk {
+    display: inline-block;
+    height: 64px;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+.perk img {
+    height: 100%;
+    filter: invert();
+}
+.perk.active {
+    background-image: url("/images/perks/active.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.perk.passive {
+    background-color: #B82E4E;
+}
+@media only screen and (max-width: 1540px){
+    .perk {
+        height: 48px;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .perk {
+        height: 64px;
+    }
+}
+@media only screen and (max-width: 720px){
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+@media only screen and (max-width: 790px) {
+    .perk {
+        height: 48px;
+    }
+}
