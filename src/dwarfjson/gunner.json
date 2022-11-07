@@ -1,0 +1,349 @@
+{
+    "id": 3,
+    "dwarf": "Gunner",
+    "slug": "gunner",
+    "color": "55AB00",
+    "primary": [
+        {
+            "name": "Lead Storm Minigun",
+            "mods": {
+                "tier1": ["Magnetic Refrigeration", "Improved Motor", "Improved Platform Stability"],
+                "tier2": ["Oversized Drum", "High Velocity Rounds"],
+                "tier3": ["Hardened Rounds", "Improved Stun", "Blowthrough Rounds"],
+                "tier4": ["Variable Chamber Pressure", "Lighter Barrel Assembly", "Magnetic Bearings"],
+                "tier5": ["Aggressive Venting", "Cold As The Grave", "Hot Bullets"]
+            },
+            "overclock": [
+                {
+                    "name": "A Little More Oomph!",
+                    "type": "clean",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Thinned Drum Walls",
+                    "type": "clean",
+                    "slug": "cooling"
+                },
+                {
+                    "name": "Burning Hell",
+                    "type": "balanced",
+                    "slug": "fire"
+                },
+                {
+                    "name": "Compact Feed Mechanism",
+                    "type": "balanced",
+                    "slug": "ammo"
+                },
+                {
+                    "name": "Exhaust Vectoring",
+                    "type": "balanced",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Bullet Hell",
+                    "type": "unstable",
+                    "slug": "ricochet"
+                },
+                {
+                    "name": "Lead Storm",
+                    "type": "unstable",
+                    "slug": "skull"
+                }
+            ],
+            "slug": "minigun"
+        },
+        {
+            "name": "'Thunderhead' Heavy Autocannon",
+            "mods": {
+                "tier1": ["Increased Caliber Rounds", "High Capacity Magazine", "Expanded Ammo Bags"],
+                "tier2": ["Tighter Barrel Alignment", "Improved Gas System", "Lighter Barrel Assembly"],
+                "tier3": ["Supercharged Feed Mechanism", "Loaded Rounds", "High Velocity Rounds"],
+                "tier4": ["Hardened Rounds", "Shrapnel Rounds"],
+                "tier5": ["Feedback Loop", "Suppressive Fire", "Damage Resistance At Full RoF"]
+            },
+            "overclock": [
+                {
+                    "name": "Composite Drums",
+                    "type": "clean",
+                    "slug": "ammo"
+                },
+                {
+                    "name": "Splintering Shells",
+                    "type": "clean",
+                    "slug": "area"
+                },
+                {
+                    "name": "Carpet Bomber",
+                    "type": "balanced",
+                    "slug": "explosion"
+                },
+                {
+                    "name": "Combat Mobility",
+                    "type": "balanced",
+                    "slug": "mobility"
+                },
+                {
+                    "name": "Big Bertha",
+                    "type": "unstable",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Neurotoxin Payload",
+                    "type": "unstable",
+                    "slug": "neurotoxin"
+                }
+            ],
+            "slug": "autocannon"
+        },
+        {
+            "name": "'Hurricane' Guided Rocket System",
+            "mods": {
+                "tier1": ["Missile Belt", "Pressurized Gas Cylinders", "Increased Blast Radius"],
+                "tier2": ["Bigger Jet Engine", "Anti-Tank Missiles"],
+                "tier3": ["Nano Missiles", "Improved Feed Mechanism"],
+                "tier4": ["Sharpnel Load", "Zip Fuel"],
+                "tier5": ["Napalm-Infused Rounds", "Uncontrolled Decompression", "Nitroglycerin Rounds"]
+            },
+            "overclock": [
+                {
+                    "name": "Manual Guidance Cutoff",
+                    "type": "clean",
+                    "slug": "control"
+                },
+                {
+                    "name": "Overtuned Feed Mechanism",
+                    "type": "clean",
+                    "slug": "speed"
+                },
+                {
+                    "name": "Fragmentation Missiles",
+                    "type": "clean",
+                    "slug": "area"
+                },
+                {
+                    "name": "Plasma Burster Missiles",
+                    "type": "balanced",
+                    "slug": "penetration"
+                },
+                {
+                    "name": "Minelayer System",
+                    "type": "balanced",
+                    "slug": "special"
+                },
+                {
+                    "name": "Jet Fuel Homebrew",
+                    "type": "unstable",
+                    "slug": "projectile"
+                },
+                {
+                    "name": "Salvo Module",
+                    "type": "unstable",
+                    "slug": "blast"
+                }
+            ],
+            "slug": "hurricane"
+        }
+    ],
+
+    "secondary": [
+        {
+            "name": "Bulldog Heavy Revolver",
+            "mods": {
+                "tier1": ["Quickfire Ejector", "Perfect Weight Balance"],
+                "tier2": ["Increased Caliber Rounds", "Floating Barrel", "Expanded Ammo Bags"],
+                "tier3": ["Super Blowthrough Rounds", "Explosive Rounds", "Hollow-Point Bullets"],
+                "tier4": ["Expanded Ammo Bags", "High Velocity Rounds"],
+                "tier5": ["Dead-Eye", "Neurotoxin Coating"]
+            },
+            "overclock": [
+                {
+                    "name": "Chain Hit",
+                    "type": "clean",
+                    "slug": "ricochet"
+                },
+                {
+                    "name": "Homebrew Powder",
+                    "type": "balanced",
+                    "slug": "random"
+                },
+                {
+                    "name": "Volatile Bullets",
+                    "type": "balanced",
+                    "slug": "fire"
+                },
+                {
+                    "name": "Six Shooter",
+                    "type": "balanced",
+                    "slug": "magazine"
+                },
+                {
+                    "name": "Elephant Rounds",
+                    "type": "unstable",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Magic Bullets",
+                    "type": "unstable",
+                    "slug": "ricochet"
+                }
+            ],
+            "slug": "bulldog"
+        },
+        {
+            "name": "BRT7 Burst Fire Gun",
+            "mods": {
+                "tier1": ["High Velocity Rounds", "Floating Barrel", "Blowthrough Rounds"],
+                "tier2": ["Recoil Dampener", "Quickfire Ejector", "Disabled Safety"],
+                "tier3": ["High Capacity Magazine", "Increased Caliber Rounds"],
+                "tier4": ["Hardened Rounds", "Expanded Ammo Bags", "Hollow-Point Bullets"],
+                "tier5": ["Burst Stun", "Longer Burst"]
+            },
+            "overclock": [
+                {
+                    "name": "Composite Casings",
+                    "type": "clean",
+                    "slug": "speed"
+                },
+                {
+                    "name": "Full Chamber Seal",
+                    "type": "clean",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Compact Mags",
+                    "type": "balanced",
+                    "slug": "ammo"
+                },
+                {
+                    "name": "Experimental Rounds",
+                    "type": "balanced",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Electro Minelets",
+                    "type": "unstable",
+                    "slug": "electric"
+                },
+                {
+                    "name": "Micro Flechettes",
+                    "type": "unstable",
+                    "slug": "shells"
+                },
+                {
+                    "name": "Lead Spray",
+                    "type": "unstable",
+                    "slug": "special"
+                }
+            ],
+            "slug": "brt"
+        },
+        {
+            "name": "ArmsKore Coil Gun",
+            "mods": {
+                "tier1": ["Extra Coil", "Larger Battery", "Optimised Magnetic Circuit"],
+                "tier2": ["Overcharger", "Controlled Magnetic Flow", "Improved Feeding System"],
+                "tier3": ["Concussive Shockwave", "Fear Trajectory"],
+                "tier4": ["Defence Enhancement", "Shockwave"],
+                "tier5": ["Necro-Thermal Catalyst", "Dilated Injector System", "Electric Trail"]
+            },
+            "overclock": [
+                {
+                    "name": "Reatomizer",
+                    "type": "clean",
+                    "slug": "special"
+                },
+                {
+                    "name": "Ultra-Magnetic Coils",
+                    "type": "clean",
+                    "slug": "duration"
+                },
+                {
+                    "name": "Backfeeding Module",
+                    "type": "balanced",
+                    "slug": "ammo"
+                },
+                {
+                    "name": "The Mole",
+                    "type": "balanced",
+                    "slug": "penetration"
+                },
+                {
+                    "name": "Hellfire",
+                    "type": "unstable",
+                    "slug": "fire"
+                },
+                {
+                    "name": "Triple-Tech Chambers",
+                    "type": "unstable",
+                    "slug": "skull"
+                }
+            ],
+            "slug": "coilgun"
+        }
+    ],
+
+    "pickaxe": [
+        {
+            "name": "Pickaxe",
+            "mods": {
+            "tier1": ["Power Attack"],
+            "tier2": ["Serrated Edge", "Shockwave", "Better Weight Balance"]
+            },
+            "slug" : "pickaxe" 
+        }
+    ],
+
+    "utility": [
+        {
+            "name": "Shield Generator",
+            "mods": {
+                "tier1": ["Streamlined Integrity Check", "Improved Projector"],
+                "tier2": ["Fast Charging Capacitors", "Larger Capacitors"],
+                "tier3": ["Supercharged Coils", "Lasting Effect", "Improved Efficiency"]
+            },
+            "slug": "shield"
+        }
+    ],
+    "traversal": [
+        {
+            "name": "Zipline Launcher",
+            "mods": {
+                "tier1": ["Expanded Ammo Bags", "Upgraded Connection Joint", "Reinforced Anchor"],
+                "tier2": ["Reinforced Cable"],
+                "tier3": ["Disconnection Protection", "Increased Motor Traction"]
+            },
+            "slug": "zipline"
+        }
+        
+    ],
+    "throwable": [
+        {
+            "name":"Sticky Grenade",
+            "slug":"sticky"
+        },
+        {
+            "name":"Incendiary Grenade",
+            "slug":"incendiary"
+        },
+        {
+            "name":"Cluster Grenade",
+            "slug":"cluster"
+        },
+        {
+            "name":"Tactical Leadburster",
+            "slug":"leadburster"
+        }
+    ],
+    "armor": [
+        {
+            "name": "Barracuda",
+            "slug": "armor",
+            "mods": {
+                "tier1": ["Imroved Generator", "Boosted Convertor", "Bigger Mineral Bag"],
+                "tier2": ["Overcharge", "Healty"],
+                "tier3": ["Resistance"],
+                "tier4": ["Shockwave", "Static Discharge", "Breathing Room"]
+            }
+        }
+    ]
+}

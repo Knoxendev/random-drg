@@ -1,12 +1,17 @@
 import './stylesheet.css';
 import { createSignal, createEffect, Index} from 'solid-js';
 import dwarves from "./dwarfs.json";
+// TODO: allow user to choose which dwarves to roll
+// import DrillerJSON from "./dwarfjson/driller.json";
+// import GunnerJSON from "./dwarfjson/gunner.json";
+// import EngineerJSON from "./dwarfjson/engineer.json";
+// import ScoutJSON from "./dwarfjson/scout.json";
 import Dwarf from "./components/Dwarf";
 import Perks from './components/Perks';
 import Tool from './components/Tool';
 
 function App() {
-
+  
   const [loadout, setLoadout] = createSignal(dwarves[Math.floor(Math.random() * dwarves.length)]);
   let tools = () => [
     {
@@ -52,12 +57,6 @@ function App() {
       "hasMods": true
     }
   ];
-
-  createEffect(()=>{
-    console.log("Dwarf changed");
-    console.log(loadout());
-  });
-
 
   // Get random Dwarf
   function getRandomDwarf() {

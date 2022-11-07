@@ -17,7 +17,6 @@ function Perks(props) {
     function randomizePerks() {
         let selectedPassive = perks.passive.sort(()=>0.5 - Math.random()).slice(0,3);
         let selectedActive = perks.active.sort(()=>0.5 - Math.random()).slice(0,2);
-        console.log(selectedActive, selectedPassive);
         setPerksID({
             "passive": selectedPassive,
             "active": selectedActive

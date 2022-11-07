@@ -1,0 +1,334 @@
+{
+    "id": 1,
+    "dwarf": "Driller",
+    "slug": "driller",
+    "color": "FFDB00",
+    "primary": [
+        {
+            "name": "CRSPR Flamethrower",
+            "mods": {
+                "tier1": ["High Capacity Tanks", "High Pressure Ejector"],
+                "tier2": ["Unfiltered Fuel", "Triple Filtered Fuel", "Sticky Flame Duration"],
+                "tier3": ["Oversized Valves ", "Sticky Flame Slowdown ", "More Fuel"],
+                "tier4": ["It Burns!", "Sticky Flame Duration", "More Fuel"],
+                "tier5": ["Heat Radiance", "Targets Explode"]
+            },
+            "overclock": [
+                {
+                    "name":"Lighter Tanks",
+                    "type": "clean",
+                    "slug": "ammo"
+                },
+                {
+                    "name": "Sticky Additive",
+                    "type": "clean",
+                    "slug": "duration"
+                },
+                {
+                    "name": "Compact Feed Valves",
+                    "type": "balanced",
+                    "slug": "magazine"
+                },
+                {
+                    "name": "Fuel Stream Diffuser",
+                    "type": "balanced",
+                    "slug": "reach"
+                },
+                {
+                    "name": "Face Melter",
+                    "type": "unstable",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Sticky Fuel",
+                    "type": "unstable",
+                    "slug": "duration"
+                }
+            ],
+            "slug": "crspr"
+        },
+        {
+            "name": "Cryo Cannon",
+            "mods": {
+                "tier1": ["Larger Pressure Chamber", "Faster Turbine Spinup ", "Stronger Cooling Unit"],
+                "tier2": ["Larger Reserve Tank ", "Overclocked Ejection Turbine", "Bypassed Integrity Check"],
+                "tier3": ["Improved Pump", "Increased Flow Volume"],
+                "tier4": ["Hard Mixture", "Supercooling Mixture", "Larger Reserve Tank"],
+                "tier5": ["Fragile", "Cold Radiance "]
+            },
+            "overclock": [
+                {
+                    "name": "Improved Thermal Efficiency",
+                    "type": "clean",
+                    "slug": "magazine"
+                },
+                {
+                    "name": "Tuned Cooler",
+                    "type": "balanced",
+                    "slug": "freeze"
+                },
+                {
+                    "name": "Flow Rate Expansion",
+                    "type": "balanced",
+                    "slug": "spin"
+                },
+                {
+                    "name": "Ice Spear",
+                    "type": "balanced",
+                    "slug": "projectile"
+                },
+                {
+                    "name": "Ice Storm",
+                    "type": "unstable",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Snowball",
+                    "type": "unstable",
+                    "slug": "area"
+                }
+            ],
+            "slug": "cryo"
+        },
+        {
+            "name": "Corrosive Sludge Pump",
+            "mods": {
+                "tier1": ["High Capacity Tanks", "Better Air Pressurizer", "Air Sensitive Compound"],
+                "tier2": ["Dyse Nozzle", "Atomizer Nozzle", "Potent Goo Mix"],
+                "tier3": ["Supersaturation", "More Goo Canisters"],
+                "tier4": ["Spillback Extension", "Improved Spooling Mechanism"],
+                "tier5": ["Protein Disruption Mix", "Fluoroantimonic Acid"]
+            },
+            "overclock": [
+                {
+                    "name":"Hydrogen Ion Additive",
+                    "type": "clean",
+                    "slug": "corrosive"
+                },
+                {
+                    "name": "AG Mixture",
+                    "type": "clean",
+                    "slug": "projectile"
+                },
+                {
+                    "name": "Volatile Impact Mixture",
+                    "type": "balanced",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Disperser Compound",
+                    "type": "balanced",
+                    "slug": "explosion"
+                },
+                {
+                    "name": "Goo Bomber Special",
+                    "type": "unstable",
+                    "slug": "special"
+                },
+                {
+                    "name": "Sludge Blast",
+                    "type": "unstable",
+                    "slug": "blast"
+                }
+            ],
+            "slug": "sludge"
+        }
+    ],
+
+    "secondary": [
+        {
+            "name": "Subata 120",
+            "mods": {
+                "tier1": ["Improved Alignment ", "High Capacity Magazine", "Quickfire Ejector"],
+                "tier2": ["Expanded Ammo Bags", "Increased Caliber Rounds"],
+                "tier3": ["Improved Propellant", "Recoil Compensator", "Expanded Ammo Bags"],
+                "tier4": ["Hollow-Point Bullets", "High Velocity Rounds"],
+                "tier5": ["Volatile Bullets", "Mactera Toxin-coating"]
+            },
+            "overclock": [
+                {
+                    "name": "Chain Hit",
+                    "type": "clean",
+                    "slug": "ricochet"
+                },
+                {
+                    "name": "Homebrew Powder",
+                    "type": "clean",
+                    "slug": "random"
+                },
+                {
+                    "name": "Oversized Magazine",
+                    "type": "balanced",
+                    "slug": "magazine"
+                },
+                {
+                    "name": "Automatic Fire",
+                    "type": "unstable",
+                    "slug": "speed"
+                },
+                {
+                    "name": "Explosive Reload",
+                    "type": "unstable",
+                    "slug": "reloadspecial"
+                },
+                {
+                    "name": "Tranquilizer Rounds",
+                    "type": "unstable",
+                    "slug": "stun"
+                }
+            ],
+            "slug": "subata"
+        },
+        {
+            "name": "Experimental Plasma Charger",
+            "mods": {
+                "tier1": ["Increased Particle Density", "Larger Battery", "Higher Charged Plasma Energy"],
+                "tier2": ["Heat Shield", "Overcharged Plasma Accelerator"],
+                "tier3": ["Improved Charge Efficiency", "Crystal Capacitors", "Tweaked Radiator"],
+                "tier4": ["Expanded Plasma Splash", "High Density Battery", "Reactive Shockwave"],
+                "tier5": ["Burning Nightmare", "Thin Containment Field", "Plasma Splash"]
+            },
+            "overclock": [
+                {
+                    "name": "Energy Rerouting",
+                    "type": "clean",
+                    "slug": "energy"
+                },
+                {
+                    "name": "Magnetic Cooling Unit",
+                    "type": "clean",
+                    "slug": "cooling"
+                },
+                {
+                    "name": "Heat Pipe",
+                    "type": "balanced",
+                    "slug": "gas"
+                },
+                {
+                    "name": "Heavy Hitter",
+                    "type": "balanced",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Overcharger",
+                    "type": "unstable",
+                    "slug": "skull"
+                },
+                {
+                    "name": "Persistent Plasma",
+                    "type": "unstable",
+                    "slug": "duration"
+                }
+            ],
+            "slug": "epc"
+        },
+        {
+            "name": "Colette Wave Cooker",
+            "mods": {
+                "tier1": ["Convex Lens", "Magnetron Tube", "Concave Lens"],
+                "tier2": ["Heat Sink", "Large Power Supply", "Thermoelectric Cooler"],
+                "tier3": ["Densification Ray", "Temperature Amplifier"],
+                "tier4": ["Wide Lens Add-on", "Power Supply Overdrive"],
+                "tier5": ["Contagion Transmitter", "Boiler Ray", "Exothermic Reactor"]
+            },
+            "overclock": [
+                {
+                    "name": "Liquid Cooling System",
+                    "type": "clean",
+                    "slug": "cooling"
+                },
+                {
+                    "name": "Super Focus Lens",
+                    "type": "clean",
+                    "slug": "accuracy"
+                },
+                {
+                    "name": "Diffusion Ray",
+                    "type": "balanced",
+                    "slug": "penetration"
+                },
+                {
+                    "name": "Mega Power Supply",
+                    "type": "unstable",
+                    "slug": "ammo"
+                },
+                {
+                    "name": "Blistering Necrosis",
+                    "type": "unstable",
+                    "slug": "sight"
+                },
+                {
+                    "name": "Gamma Contamination",
+                    "type": "unstable",
+                    "slug": "radiation"
+                }
+            ],
+            "slug": "colette"
+        }
+    ],
+    "pickaxe": [
+        {
+            "name": "Pickaxe",
+            "mods": {
+            "tier1": ["Power Attack"],
+            "tier2": ["Serrated Edge", "Shockwave", "Better Weight Balance"]
+            },
+            "slug" : "pickaxe" 
+        }
+    ],
+    "utility": [
+        {
+            "name": "Satchel Charge (C4)",
+            "mods": {
+                "tier1": ["Fragmentary Shell", "Extra Satchel Charge", "Bigger Charge"],
+                "tier2": ["Kill Switch"],
+                "tier3": ["Extra Satchel Charge", "Volatile Compound"],
+                "tier4": ["Big Bang", "Concussive Blast", "Rock Mover"]
+            },
+            "slug": "c4"
+        }
+    ],
+    "traversal": [
+        {
+            "name": "Reinforced Power Drills",
+            "mods": {
+                "tier1": ["Barbed Drills", "Hardened Drill Tips", "Expanded Fuel Tanks"],
+                "tier2": ["Magnetic Refrigeration", "Streamlined Integrity Check"],
+                "tier3": ["Supercharged Motor"],
+                "tier4":  ["Increased Tank Pressure", "Bloody Cold Drills"]
+            },
+            "slug": "drills"
+        }
+    ],
+    "throwable": [
+        {
+            "name":"Impact Axe",
+            "slug":"axe"
+        },
+        {
+            "name":"High Explosive Grenade",
+            "slug":"hegrenade"
+        },
+        {
+            "name":"Neurotoxin Grenade",
+            "slug":"neurogrenade"
+        },
+        {
+            "name": "Springloaded Ripper",
+            "slug": "ripper"
+        }
+    ],
+    "armor": [
+        {
+            "name": "Mole",
+            "slug": "armor",
+            "mods": {
+                "tier1": ["Imroved Generator", "Boosted Convertor", "Bigger Mineral Bag"],
+                "tier2": ["Overcharge", "Healty"],
+                "tier3": ["Resistance"],
+                "tier4": ["Shockwave", "Static Discharge", "Breathing Room"]
+            }
+            
+        }
+    ]
+}

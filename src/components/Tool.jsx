@@ -27,7 +27,6 @@ function Tool(props) {
     }
     function randomizeTool() {
         let toolSelected = props.tool;
-        console.log("Tool obtained");
         return toolSelected[Math.floor(Math.random() * toolSelected.length)];
     }
 
@@ -39,14 +38,13 @@ function Tool(props) {
             let chosenRandom = Math.floor(Math.random()*currentTier.length);
             toolModsID.push(chosenRandom);
         }
-        console.log("Mods obtained");
+        
         return toolModsID;
     }
 
     function randomizeOverclockID(randomizedTool) {
-        console.log("Overclock obtained");
+        
         let num = Math.floor(Math.random() * randomizedTool.overclock.length);
-        console.log(num);
         return num;
     }
 

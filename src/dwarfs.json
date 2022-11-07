@@ -250,7 +250,7 @@
                     },
                     {
                         "name": "Mega Power Supply",
-                        "type": "unstable",
+                        "type": "balanced",
                         "slug": "ammo"
                     },
                     {
@@ -760,7 +760,7 @@
                     {
                         "name": "Neurotoxin Payload",
                         "type": "unstable",
-                        "slug": "neurotoxin"
+                        "slug": "poison"
                     }
                 ],
                 "slug": "autocannon"
